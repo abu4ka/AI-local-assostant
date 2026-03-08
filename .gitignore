@@ -1,0 +1,17 @@
+# Python (виртуальное окружение и кэш)
+venv/
+.env
+__pycache__/
+*.pyc
+
+# Модели 
+model/*.bin
+model/*.pth
+model/*.onnx
+model/*.gguf
+
+# Логи и временные файлы
+*.log
+.DS_Store (для Mac)
+dist/
+build/
